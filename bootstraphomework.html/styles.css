@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(38, 158, 158);
+}
+.navbar-brand {
+  font-size: 50px; /* Change the font size as desired */
+  color: purple; /* Change the color as desired */
+  text-decoration: none; /* Remove the default underline */
+  /* Add any other styles you want */
+}
+
+.navbar {
+    background-color: aquamarine;
+  }
+  .navbar-brand:hover {
+    color: yellow; /* Set the text color to white on hover */
+    text-decoration-line: underline;
+  }
+  
+  /* Change the font color of the navbar links */
+  .navbar-nav .nav-link {
+    color:yellow;
+    font-size: 40px;
+  }
+  
+  /* Add a hover effect to the navbar links */
+  .navbar-nav .nav-link:hover {
+    color:yellow;
+    background-color:purple;
+  }
+  
+  /* Change the color of the navbar toggler icon */
+  .navbar-toggler-icon {
+    background-color:yellow;
+  }
+  .alert-learning {
+    font-size: 40px;
+    background-color: green; /* Set the background color as desired */
+    color: purple; /* Set the text color as desired */
+    padding: 10px; /* Add some padding to the alert */
+    border: 10px solid #f5c6cb; /* Add a border to the alert */
+   
+    /* Add any other styles you want */
+  }
+  .alert-learning:hover {
+    background-color: yellow; /* Set the background color on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+  h1 {
+    font-family: "Arial", sans-serif; /* Change the font family as desired */
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    color:purple;
+  }
+  h1:hover {
+    color:yellow; /* Change the text color on hover */
+    cursor: pointer; /* Change the cursor to a pointer on hover */
+  }
+  table {
+    border-collapse: collapse; /* Remove borders between table cells */
+    width: 100%; /* Set the table width to 100% of its container */
+    margin-bottom: 20px; /* Add some margin below the table */
+  }
+  
+  th, td {
+    text-align: left; /* Align table data to the left */
+    padding: 8px; /* Add padding to table cells */
+    border-bottom: 1px solid #ddd; /* Add a bottom border to table rows */
+  }
+  
+  th {
+    background-color: #f2f2f2; /* Add a light gray background to table header row */
+    color: #333; /* Set the text color of table headers */
+  }
+  
+  .btn-primary {
+    background-color: purple; /* Set the background color of the primary buttons */
+    color: white; /* Set the text color of the primary buttons */
+    border: none; /* Remove the button border */
+    padding: 8px 16px; /* Add padding to the buttons */
+    text-align: center; /* Center the text within the button */
+    text-decoration: none; /* Remove underline from the button text */
+    display: inline-block; /* Make the buttons inline */
+    font-size: 18px; /* Set the font size of the button text */
+    margin-right: 15px; /* Add some margin to the right of the buttons */
+  }
+  td:hover {
+    background-color: purple; /* Set the background color of the table cell on hover */
+  }
+  .btn-primary:hover {
+    background-color: #7f3eb5; /* Change the background color of the primary buttons on hover */
+  }
+  
+  td {
+    font-size: 30px; /* Set the font size of the table cells */
+    font-weight: bold; /* Set the font weight of the table cells to bold */
+    color: yellow; /* Set the text color of the table cells */
+    padding: 8px; /* Add some padding to the table cells */
+  }
+  
+  label {
+    display: block; /* Make the label a block element */
+    margin-bottom: 5px; /* Add some margin below the label */
+    font-size: 16px; /* Set the font size of the label */
+    color: yellow; /* Set the text color of the label */
+    font-weight: bold; /* Set the font weight of the label to bold */
+  }
+  
+  
